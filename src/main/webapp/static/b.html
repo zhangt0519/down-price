@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+<script>
+function go() {
+	location = "c.html";
+}
+
+</script>
+
+<h4>静态页面：：：：：亲爱的<span th:text="${name}"></span>，你好！</h4>  
+
+<p> zhangt: <div th:text="${name}"></div> 
+
+<div><input type="button" id="btn" value="go" onclick="go();"> </div>
+
+</body>
+</html>
